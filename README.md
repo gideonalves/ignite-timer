@@ -1,7 +1,7 @@
 <h1 align="center">
-    <img alt="Logo Ignite" title="Logo Ignite" src="./.github/logo-ignite.svg"/>
+    <img alt="Logo Ignite" title="Logo Ignite" src="./.github/images/logo-ignite.svg" />
     Ignite Timer
-<h1>
+</h1>
 
 <p align="center">
  <a href="#-demonstration">Demonstration</a> |
@@ -70,3 +70,25 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 🎨 Layout
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/nCeslCY32mG7newtwTpuks/Ignite-Timer-(Community)?node-id=11%3A599). É necessário ter conta no [Figma](https://www.figma.com/) para acessá-lo.
+
+## 📋 Clipboard (Pré-requisitos)
+
+Antes de baixar o projeto você vai precisar ter instalado na sua máquina as seguintes ferramentas:
+
+* [Git](https://git-scm.com)
+* [NodeJS](https://nodejs.org/en/)
+* [Yarn](https://yarnpkg.com/) ou [NPM](https://www.npmjs.com/)
+
+## ⚙ Settings
+
+Segue os comandos para baixar e executar o projeto na sua máquina:
+
+* `git clone` + `URL do Projeto`: clonar este repositório.
+* `cd Ignite-Timer`: acessa a pasta do projeto no terminal.
+* `yarn`: para baixar as dependências do projeto.
+* `yarn dev`: 
+    - Executa o projeto em modo/ambiente de desenvolvimento.
+    - Abra [http://127.0.0.1:5173/](http://127.0.0.1:5173/) para ver o projeto rodando no Navegador.
+    - A página será recarregada se você fizer edições no código, e se tiver algum erro será mostrado no console.
+* `yarn build`: 
+    - Compila a aplicação para a produção na pasta `build`.
